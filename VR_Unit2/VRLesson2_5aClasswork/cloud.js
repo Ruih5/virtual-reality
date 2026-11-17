@@ -12,6 +12,6 @@ class Cloud{
     }
     this.obj.setAttribute("position",{x:x, y:y, z:z});
     scene.append( this.obj )
+
   }
   //Challenge 2: Create a function fly() which increases x by dx and updates the Cloud object to that x position
-}

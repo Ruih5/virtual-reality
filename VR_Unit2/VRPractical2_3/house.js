@@ -44,7 +44,7 @@ class House{
   roof.setAttribute("width",2);
   roof.setAttribute("depth",0.1); 
   roof.setAttribute("rotation","45 0 0");
-  roof.setAttribute("color","#776565");
+  roof.setAttribute("color","#978181");
   this.obj.append( roof );
 
   let  roof1= document.createElement("a-box");
@@ -53,7 +53,7 @@ class House{
   roof1.setAttribute("width",2);
   roof1.setAttribute("depth",0.1); 
   roof1.setAttribute("rotation","135 0 0");
-  roof1.setAttribute("color","#776565");
+  roof1.setAttribute("color","#978282");
   this.obj.append( roof1 );
 
 this.obj.setAttribute("position",{x:x, y:y, z:z});
