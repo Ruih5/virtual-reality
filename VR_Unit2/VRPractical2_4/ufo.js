@@ -11,7 +11,7 @@ class UFO{
     body.setAttribute("position",{x:0,y:0,z:0});
     body.setAttribute("radius",1.5);
     body.setAttribute("height",0.3);
-    body.setAttribute("color","brown");
+    body.setAttribute("color","#895129");
     this.obj.append(body);
 
     let top = document.createElement("a-sphere");
@@ -20,7 +20,6 @@ class UFO{
     top.setAttribute("color","lightblue");
     this.obj.append(top);
 
-
     this.obj.setAttribute("position",{x:x,y:y,z:z});
     scene.append(this.obj);
   }
@@ -28,11 +27,9 @@ class UFO{
   invade(){
     if(this.y > 1){
       this.y -= this.dy;
-
       if(this.y < 1){
         this.y = 1;
       }
-
       this.obj.setAttribute("position",{x:this.x,y:this.y,z:this.z});
     }
   }
